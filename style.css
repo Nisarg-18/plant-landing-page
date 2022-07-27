@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background-color: #f4f3f8;
+  height: 100vh;
+}
+
+#navbarMonstera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+#navMid,
+#navEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navMid {
+  width: 700px;
+  font-size: 20px;
+  font-family: "Allerta", sans-serif;
+}
+
+#navEnd {
+  width: 140px;
+}
+
+#home-item {
+  position: relative;
+}
+
+#home-item::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: #000000;
+  height: 2px;
+  width: 57px;
+  margin-top: 2px;
+}
+
+#midWhole {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+}
+
+#imgMain {
+  height: 84.2vh;
+}
+
+#midWholePart13 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Allerta", sans-serif;
+}
+.text {
+  font-size: 11px;
+  width: 160px;
+}
+.midWholePart13Parts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+.midWholePart13Parts img {
+  padding-right: 10px;
+}
+#feeding {
+  margin-top: 20px;
+}
+#monstera {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 100px;
+}
+
+.list-item {
+  font-family: "Allerta", sans-serif;
+}
+
+#midWholePart11 {
+  width: 560px;
+  padding-bottom: 40px;
+}
+
+.first-item {
+  list-style-type: circle;
+}
+
+#midWholePart12 {
+  padding-bottom: 60px;
+}
+
+#midWholePart121 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #466d50;
+  width: 160px;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-family: "Abel", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+#midWholePart122 {
+  padding-top: 10px;
+}
+#midWholePart122 img {
+  height: 20px;
+  width: 20px;
+}
