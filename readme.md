@@ -10,7 +10,7 @@ A landing page for a Plant selling company made using pure HTML and CSS
 ## Time Taken for Completion
 - 3 hours
 
-<!-- ### Checkout the Project here : [investincrypto](https://investincrypto.netlify.app/) -->
+### Checkout the Project here : [freshplants](https://freshplants.netlify.app/)
 
 ## Output
 ![output](output.png)
